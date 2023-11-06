@@ -1,0 +1,32 @@
+[
+  {
+    "categoria": "proyecto",
+    "title": "Sitio web informativo",
+    "factor": 1.0
+  },
+  {
+    "categoria": "proyecto",
+    "title": "Tienda en línea",
+    "factor": 1.2
+  },
+  {
+    "categoria": "proyecto",
+    "title": "Plataforma de redes sociales",
+    "factor": 1.5
+  },
+  {
+    "categoria": "cliente",
+    "title": "Pyme",
+    "factor": 1.5
+  },
+  {
+    "categoria": "cliente",
+    "title": "Corporación",
+    "factor": 1.7
+  },
+  {
+    "categoria": "cliente",
+    "title": "Startup",
+    "factor": 1.3
+  }
+]

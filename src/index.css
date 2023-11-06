@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Nunito', 'sans-serif';
+}
+
+main {
+    background-color: #190482;
+    color: snow;
+    padding: 0 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #C63D2F;
+    padding: 1rem;
+}
+
+nav a{
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #190482;
+    color: snow;
+    border-radius: 1rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    padding: 1rem;
+    background-color: #277BC0;
+
+}
+
+form input {
+    width: 100%;
+    padding: 0 1rem;
+    font-family: 'Nunito', 'sans-serif';
+}
+
+form * {
+    outline: none;
+}
+
+p{
+    padding: 1rem;
+}
+
+form:last-child {
+    width: 100%;
+}
+
+form:last-child button {
+    background-color: snow;
+    color: #277BC0;
+    height: 2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+button {
+    cursor: pointer;
+    margin: 1rem 0;
+}
+
+ul {
+    width: 75vw;
+    height: 25vh;
+    max-height: 25vh;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+
+}
+ul li {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: 1rem;
+    background-color: #277BC0;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:768px){
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
